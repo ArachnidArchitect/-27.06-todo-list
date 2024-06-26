@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./externalfiles/style.css">
+</head>
+<body>
+
+    <aside>
+        <button id="close"><<</button>
+        
+        <form action="">
+            <div class="heading">
+                <h1>Today:</h1>
+            </div>
+            <input type="text" placeholder="e.g Study chapter 7..." id="input" autocomplete="off" autofocus>
+            <button id="addItem" autofocus>Add Item</button>
+            <button id="save">Save for later</button>
+        </form>
+    </aside>
+
+    <main>
+        <button id="open">>></button>
+        <div class="myList">
+            <ul id="task">
+               <li><input type="checkbox"> <span class="liDivider">Add an item or tap the blocks to remove the content</span></li>
+               <li><input type="checkbox"> <span class="liDivider">You can click the check button when you complete a task</span></li>
+               <li><input type="checkbox"> <span class="liDivider">You can also tap the item  to remove it</span></li>
+               <li><input type="checkbox"> <span class="liDivider">Don't forget to press the save for later button before you leave</span></li>
+            </ul>
+        </div>
+    </main>
+    <footer>All content remains intellectual property of Taahir Du Toit</footer>
+    <script src="./externalfiles/script.js"></script>
+</body>
+</html>
